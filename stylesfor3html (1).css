@@ -1,0 +1,80 @@
+*{
+    font-family: monospace;
+}
+body{
+    margin:0;
+    color: greenyellow;
+    font-size: 15px;
+}
+header{
+    height: 100vh;
+    color: white;
+    background-color: #2196F3;
+}
+element.style {
+    padding: 20px;
+}
+h1{
+    font-size: 3rem;
+    color: #2196F3;
+}
+header h1{
+    color: goldenrod;
+    margin:0;
+}
+.button{
+    height:40px;
+    width:140px;
+    border: none;
+    border-radius: 15px;
+    cursor:pointer;
+}
+.button:hover{
+    color:rgb(253, 255, 240);
+    background-color: darkblue;
+}
+img{
+    height: 50vh;
+}
+section{
+    height: 100vh;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.submit{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color:rgb(128, 88, 7);
+    background-color: #2196F3;
+}
+.submit:hover{
+    color: black;
+    background-color: yellowgreen;
+}
+.input{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    height:25px;
+}
+.fixedButton{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 70px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+}
+footer{
+    height:100px;
+    background-color: black;
+    color: lightgrey;
+}
+
